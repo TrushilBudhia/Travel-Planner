@@ -1,4 +1,4 @@
-const Traveller = require('./travllers');
+const Traveller = require('./travellers');
 const Location = require('./locations');
 const Trip = require('./trips');
                           

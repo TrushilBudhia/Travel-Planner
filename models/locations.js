@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-// create our Location model
+// Extending the Model prototype to the Location class
 class Location extends Model {}
 
 // create fields/columns for Location model

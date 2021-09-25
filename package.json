@@ -1,0 +1,28 @@
+{
+  "name": "travel-planner",
+  "version": "1.0.0",
+  "description": "Travel Planner",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrushilBudhia/Travel-Planner.git"
+  },
+  "author": "Trushil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrushilBudhia/Travel-Planner/issues"
+  },
+  "homepage": "https://github.com/TrushilBudhia/Travel-Planner#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13",
+    "sequelize": "^6.6.5"
+  }
+}
