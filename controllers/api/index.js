@@ -1,4 +1,3 @@
-
 const router = require('express').Router();
 const locationRoutes = require('./location-routes');
 const travellersRoutes = require('./travellers-routes');
